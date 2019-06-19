@@ -17,7 +17,9 @@ class CashRegister
     # total => total - (total x (discount/100))
     if @discount != total
       @total = @total - (@total) * (@discount/100.to_f)
+      self.total = self.total - self.last_transaction
     return "After the discount, the total comes to $800."
+    
       else
           "There is no discount to apply."
         end
