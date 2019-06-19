@@ -23,10 +23,11 @@ class CashRegister
       end
 
     def items
+      binding.pry 
       @items = ["eggs", "tomato", "tomato", "tomato"]
     end
 
     def void_last_transaction
-    
+
     end
 end
