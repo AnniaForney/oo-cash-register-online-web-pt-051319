@@ -26,5 +26,6 @@ class CashRegister
       @items = ["eggs", "tomato", "tomato", "tomato"]
     end
 
-    def 
+    def void_last_transaction
+    end 
 end
