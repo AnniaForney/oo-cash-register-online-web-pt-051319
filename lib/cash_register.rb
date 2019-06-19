@@ -16,9 +16,9 @@ class CashRegister
     # total => total - (total x (discount/100))
     if @total = @total - (@total) * (@discount/100.to_f)
     return "After the discount, the total comes to $800."
-  else
+      else
           "There is no discount to apply."
         end
-      end 
+      end
 
 end
