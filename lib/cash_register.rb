@@ -25,4 +25,6 @@ class CashRegister
     def items
       @items = ["eggs", "tomato", "tomato", "tomato"]
     end
+
+    def 
 end
