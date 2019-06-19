@@ -14,18 +14,13 @@ class CashRegister
 
   def apply_discount
     # total => total - (total x (discount/100))
-    if discount != 0
+    if 
       @total = @total - (@total) * (@discount/100.to_f)
     return "After the discount, the total comes to $800."
       else
           "There is no discount to apply."
         end
       end
-
-    def items
-      binding.pry 
-      @items = ["eggs", "tomato", "tomato", "tomato"]
-    end
 
     def void_last_transaction
 
